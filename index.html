@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moon One — Light, from the inside.</title>
+    <meta
+      name="description"
+      content="Meet Moon One. A frosted, health-focused smartwatch powered by moonOS. Explore the working prototype and join the waitlist."
+    />
+    <meta name="theme-color" content="#0b0b0c" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=ecg-pay2" />
+    <script src="script.js?v=ecg-pay" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav">
+      <a class="brand" href="#"
+        >moon<span>one</span><i aria-hidden="true"></i
+      ></a>
+      <nav aria-label="Main navigation">
+        <a href="#design">Design</a><a href="#health">Health</a
+        ><a href="#sleep">Sleep</a><a href="#moonos">moonOS</a
+        ><a href="#solana-pay">Pay</a><a href="#specs">Specs</a>
+      </nav>
+      <a class="button small" href="#waitlist"
+        >Join the waitlist <span aria-hidden="true">↗</span></a
+      >
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">MEET MOON ONE</p>
+          <h1 id="hero-title">Light, from<br />the inside.</h1>
+          <p class="hero-sub">
+            A different kind of watch.<br />A little closer to you.
+          </p>
+          <a href="#design" class="text-link"
+            >Discover Moon One <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <img
+          class="hero-product"
+          src="assets/hero.webp"
+          alt="Moon One, a frosted translucent smartwatch with a round display and orange strap"
+          fetchpriority="high"
+          width="1536"
+          height="1024"
+        />
+        <div class="hero-bottom">
+          <span>Runs moonOS.</span
+          ><span>WORKING PROTOTYPE · IN DEVELOPMENT</span
+          ><a href="#highlights" aria-label="Explore the highlights">↓</a>
+        </div>
+      </section>
+      <section
+        class="highlights section"
+        id="highlights"
+        aria-labelledby="highlights-title"
+      >
+        <div class="section-top">
+          <h2 id="highlights-title" class="medium">
+            A little more<br />to feel good about.
+          </h2>
+          <div class="slider-controls">
+            <button
+              class="circle-control"
+              id="slide-prev"
+              aria-label="Previous highlight"
+            >
+              ←</button
+            ><button
+              class="circle-control"
+              id="slide-next"
+              aria-label="Next highlight"
+            >
+              →</button
+            ><button
+              class="circle-control"
+              id="slide-pause"
+              aria-label="Pause highlights"
+              aria-pressed="false"
+            >
+              Ⅱ
+            </button>
+          </div>
+        </div>
+        <div
+          class="highlight-track"
+          id="highlight-track"
+          aria-label="Product highlights"
+          tabindex="0"
+        >
+          <a class="highlight" href="#design"
+            ><img
+              src="assets/macro.webp"
+              alt="Frosted Moon One case detail"
+              loading="lazy"
+            />
+            <div>
+              <span>DESIGN</span>
+              <h3>A case like<br />moonlight.</h3>
+            </div>
+            <b aria-hidden="true">↗</b></a
+          >
+          <a class="highlight" href="#health"
+            ><figure class="watch highlight-watch" data-screen="03_heart.png"></figure>
+            <div>
+              <span>HEALTH</span>
+              <h3>Your heart,<br />live.</h3>
+            </div>
+            <b aria-hidden="true">↗</b></a
+          >
+          <a class="highlight" href="#sleep"
+            ><figure class="watch highlight-watch" data-screen="14_sleep.png"></figure>
+            <div>
+              <span>SLEEP</span>
+              <h3>Sleep,<br />understood.</h3>
+            </div>
+            <b aria-hidden="true">↗</b></a
+          >
+          <a class="highlight" href="#battery"
+            ><figure class="highlight-wrist"><img src="assets/wrist.webp" alt="Moon One with a Frost watch face, worn on the wrist" loading="lazy" /></figure>
+            <div>
+              <span>BATTERY</span>
+              <h3>Days,<br />not hours.</h3>
+            </div>
+            <b aria-hidden="true">↗</b></a
+          >
+          <a class="highlight" href="#moonos"
+            ><figure class="watch highlight-watch" data-screen="02_apps.png"></figure>
+            <div>
+              <span>MOONOS</span>
+              <h3>An OS<br />of its own.</h3>
+            </div>
+            <b aria-hidden="true">↗</b></a
+          >
+        </div>
+        <div class="slide-progress" aria-hidden="true"><span></span></div>
+      </section>
+      <section class="design section" id="design">
+        <div class="reveal">
+          <p class="eyebrow">A SOFTER SIDE OF TECHNOLOGY</p>
+          <h2>
+            Sandblasted.<br />Translucent.<br /><span>Unmistakable.</span>
+          </h2>
+        </div>
+        <div class="design-visual">
+          <img
+            class="lunar"
+            src="assets/lunar.webp"
+            alt=""
+            loading="lazy"
+          /><img
+            class="case-macro"
+            src="assets/macro.webp"
+            alt="Light passing through the sandblasted translucent polycarbonate case"
+            loading="lazy"
+          />
+        </div>
+        <div class="design-caption">
+          <p>
+            The case is frosted polycarbonate, blasted to a soft matte so it
+            scatters light the way the moon does. A quiet glow, with the
+            electronics just beneath the surface.
+          </p>
+          <p class="muted">And a strap the color of sunrise.</p>
+        </div>
+      </section>
+      <section class="display section light" id="display">
+        <div class="reveal centered">
+          <p class="eyebrow">ALL THE SPACE YOU NEED</p>
+          <h2>A full moon<br />on your wrist.</h2>
+          <p class="lede">
+            A 1.43-inch round AMOLED with 466 × 466 pixels.<br />Always on, so
+            the time is there before you ask.
+          </p>
+        </div>
+        <div class="display-watch watch" data-screen="01_watchface.png"></div>
+        <div class="display-facts">
+          <div><strong>1.43″</strong><span>Round AMOLED</span></div>
+          <div>
+            <strong>466 × 466</strong><span>Every pixel, considered</span>
+          </div>
+          <div><strong>Always on</strong><span>A glance is enough</span></div>
+        </div>
+        <div class="pills" aria-label="Watch face">
+          <button
+            class="selected"
+            data-face="01_watchface.png"
+            aria-pressed="true"
+          >
+            Frost</button
+          ><button data-face="01b_watchface_aod.png" aria-pressed="false">
+            Always-on</button
+          ><button data-face="07_watchface_dnd.png" aria-pressed="false">
+            Do not disturb
+          </button>
+        </div>
+      </section>
+      <section class="health-intro section" id="health">
+        <p class="eyebrow reveal">CLOSER TO YOUR EVERYDAY</p>
+        <h2 class="reveal">
+          A better picture.<br /><span>Beat by beat.</span>
+        </h2>
+        <p class="lede reveal">
+          Your signals. Your rhythms.<br />Right there, on your wrist.
+        </p>
+      </section>
+      <section class="signal-story" aria-label="Explore moonOS health screens">
+        <div class="pinned-product">
+          <div class="watch story-watch" data-screen="01_watchface.png"></div>
+          <p class="screen-caption">Actual moonOS interface</p>
+        </div>
+        <div class="story-copy">
+          <article class="story-step active" data-story="01_watchface.png">
+            <p class="eyebrow">YOUR DAY, AT A GLANCE</p>
+            <h2>Everything<br />in your orbit.</h2>
+            <p>
+              Time, a live pulse trace and skin temperature. The details that
+              matter, in one quiet place.
+            </p>
+          </article>
+          <article class="story-step" data-story="03_heart.png">
+            <p class="eyebrow orange">HEART RATE</p>
+            <h2>Every beat,<br />as it happens.</h2>
+            <p>Live heart rate with a 60-second trace, right on your wrist.</p>
+            <div class="pulse" aria-hidden="true">
+              <svg viewBox="0 0 400 85">
+                <path
+                  d="M0 43H60L75 30L90 55L110 9L130 77L148 32L164 44H205L220 30L235 55L255 9L275 77L293 32L309 44H400"
+                /></svg
+              ><strong><span id="bpm">94</span><small>BPM</small></strong>
+            </div>
+          </article>
+          <article class="story-step" data-story="09_hrv.png">
+            <p class="eyebrow violet">HEART RATE VARIABILITY</p>
+            <h2>Find your<br />own rhythm.</h2>
+            <p>
+              HRV in RMSSD and SDNN. An overnight baseline, and on-demand
+              measurements whenever you want a closer look.
+            </p>
+            <div class="pills story-pills">
+              <button
+                class="selected"
+                data-hrv="09_hrv.png"
+                aria-pressed="true"
+              >
+                Overview</button
+              ><button data-hrv="10_hrv_measuring.png" aria-pressed="false">
+                Measure</button
+              ><button data-hrv="11_hrv_result.png" aria-pressed="false">
+                Result
+              </button>
+            </div>
+          </article>
+          <article class="story-step" id="sleep" data-story="14_sleep.png">
+            <p class="eyebrow violet">SLEEP</p>
+            <h2>Know<br />your night.</h2>
+            <p>
+              Awake, light, deep and REM. A sleep score, your sleeping heart
+              rate, HRV, breathing rate and skin temperature.
+            </p>
+            <div class="sleep-bars" aria-hidden="true">
+              <i></i><i></i><i></i><i></i>
+            </div>
+            <label class="screen-select"
+              >Explore your night<select id="sleep-screen">
+                <option value="14_sleep.png">Sleep stages</option>
+                <option value="14b_sleep_score.png">Sleep score</option>
+                <option value="14c_sleep_hr.png">Sleeping heart rate</option>
+                <option value="14d_sleep_hrv.png">Overnight HRV</option>
+                <option value="14e_sleep_breathing.png">Breathing rate</option>
+                <option value="14f_sleep_temp.png">Skin temperature</option>
+                <option value="14g_sleep_week.png">Week at a glance</option>
+              </select></label
+            >
+          </article>
+          <article class="story-step" data-story="05_temperature.png">
+            <p class="eyebrow orange">SKIN TEMPERATURE</p>
+            <h2>Small changes,<br />noticed.</h2>
+            <p>
+              Skin temperature through the night. Another part of your daily
+              picture, measured close to you.
+            </p>
+          </article>
+          <article class="story-step" data-story="15_altimeter.png">
+            <p class="eyebrow">ALTITUDE & PRESSURE</p>
+            <h2>A sense<br />of where you are.</h2>
+            <p>Altitude and barometric pressure through the day.</p>
+            <div class="pills">
+              <button
+                class="selected"
+                data-environment="15_altimeter.png"
+                aria-pressed="true"
+              >
+                Altitude</button
+              ><button data-environment="16_barometer.png" aria-pressed="false">
+                Pressure
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="lifestyle">
+        <img
+          src="assets/wrist.webp"
+          alt="The frosted Moon One and orange strap worn in soft daylight"
+          loading="lazy"
+        />
+        <div class="reveal">
+          <p class="eyebrow">MADE FOR THE EVERYDAY</p>
+          <h2>Feels like you.</h2>
+        </div>
+      </section>
+      <section class="payment-concept" id="solana-pay" aria-labelledby="payment-title">
+        <img
+          src="assets/sol-payment.webp"
+          alt="Moon One on a left wrist, with a right index finger touching the metal crown. The white screen shows SOL, 0.172 SOL, Café Luna, an orange ECG trace and Hold the crown · 3 s."
+          width="1672"
+          height="941"
+          loading="lazy"
+        />
+        <div class="payment-copy reveal">
+          <p class="eyebrow">ECG + SOLANA PAY · CONCEPT</p>
+          <h2 id="payment-title">Pay with<br />your heartbeat.</h2>
+          <p class="payment-sub">
+            Touch the crown. Your heart confirms it's you.
+          </p>
+          <p class="payment-guard">
+            <img
+              class="rugbuster-logo"
+              src="assets/rugbuster.png"
+              alt="RugBuster"
+              width="32"
+              height="32"
+            />Every scan, checked by RugBuster. Before you confirm, the token and
+            the recipient are screened for known scam patterns.
+          </p>
+        </div>
+      </section>
+      <section class="os section light" id="moonos">
+        <div class="centered reveal">
+          <p class="eyebrow">MEET MOONOS</p>
+          <h2>Built from<br />the signal up.</h2>
+          <p class="lede">
+            Our own operating system, written from scratch.<br />Our algorithms
+            read the raw sensor signal, end to end.<br />So we can keep making
+            them better.
+          </p>
+        </div>
+        <div class="theme-pair">
+          <figure>
+            <div
+              class="watch"
+              id="theme-watch"
+              data-screen="06_settings.png"
+            ></div>
+            <figcaption id="theme-caption">Frost. A softer glow.</figcaption>
+          </figure>
+          <figure>
+            <div class="watch" data-screen="13_settings_other_theme.png"></div>
+            <figcaption>Dark. After hours.</figcaption>
+          </figure>
+        </div>
+        <div class="pills theme-controls" aria-label="Interactive watch theme">
+          <button class="selected" data-theme="frost" aria-pressed="true">
+            Frost</button
+          ><button data-theme="dark" aria-pressed="false">Dark</button>
+        </div>
+        <div class="os-detail">
+          <h3>A little less friction.</h3>
+          <p>
+            Quick settings. Do not disturb. A flashlight when you need one.
+            Brightness, just right.
+          </p>
+        </div>
+        <div class="pills apps-controls" aria-label="Explore moonOS apps">
+          <button
+            class="selected"
+            data-app="06_settings.png"
+            aria-pressed="true"
+          >
+            Settings</button
+          ><button data-app="02_apps.png" aria-pressed="false">Apps</button
+          ><button data-app="04_quick_settings.png" aria-pressed="false">
+            Quick settings</button
+          ><button data-app="08_flashlight.png" aria-pressed="false">
+            Flashlight
+          </button>
+        </div>
+      </section>
+      <section class="battery section" id="battery">
+        <div class="battery-copy reveal">
+          <p class="eyebrow">MORE LIVING. LESS CHARGING.</p>
+          <h2>Designed<br />for a week.</h2>
+          <p class="battery-number">6–7 <span>days</span></p>
+          <p>Engineered for 6 to 7 days between charges.</p>
+          <small
+            >Design target; final battery life will be confirmed before
+            launch.</small
+          >
+        </div>
+        <figure class="battery-art">
+          <img
+            src="assets/hero.webp"
+            alt="Moon One with its white Frost watch face and orange strap, matching the opening image"
+            width="1672"
+            height="941"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+      <section class="specs section light" id="specs">
+        <div class="section-top">
+          <h2 class="medium">All the details.<br />One Moon.</h2>
+          <p>Moon One<br /><span class="muted">Working prototype</span></p>
+        </div>
+        <dl>
+          <div>
+            <dt>Display</dt>
+            <dd>1.43″ round AMOLED<br />466 × 466 pixels · Always-on</dd>
+          </div>
+          <div>
+            <dt>Materials</dt>
+            <dd>Frosted polycarbonate<br />Orange strap · Metal crown</dd>
+          </div>
+          <div>
+            <dt>Heart</dt>
+            <dd>
+              Live heart rate · 60-second trace<br />Blood oxygen (SpO2)<br />HRV
+              · RMSSD & SDNN<br />ECG on the crown · in development
+            </dd>
+          </div>
+          <div>
+            <dt>Sleep</dt>
+            <dd>Awake · Light · Deep · REM<br />Sleep score · Weekly view</dd>
+          </div>
+          <div>
+            <dt>Night insights</dt>
+            <dd>Heart rate · HRV<br />Breathing rate · Skin temperature</dd>
+          </div>
+          <div>
+            <dt>Environment</dt>
+            <dd>Altimeter · Barometer<br />Wear detection</dd>
+          </div>
+          <div>
+            <dt>Operating system</dt>
+            <dd>moonOS · Frost & Dark themes<br />Bluetooth LE</dd>
+          </div>
+          <div>
+            <dt>Battery</dt>
+            <dd>
+              6–7 day design target<br />Final performance to be confirmed
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section class="waitlist section" id="waitlist">
+        <p class="eyebrow">THE NEXT PHASE STARTS WITH YOU</p>
+        <h2>Be first<br />under the moon.</h2>
+        <p class="lede">
+          Moon One is taking shape.<br />Be here for what comes next.
+        </p>
+        <form id="waitlist-form">
+          <label class="sr-only" for="email">Your email address</label
+          ><input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Your email address"
+            required
+            autocomplete="email"
+            maxlength="254"
+          /><button class="button" type="submit">
+            Join the waitlist <span aria-hidden="true">↗</span>
+          </button>
+        </form>
+        <p class="form-note contact-note">
+          Prefer to talk? Write to us at
+          <a href="mailto:ffurduj@gmail.com">ffurduj@gmail.com</a>
+        </p>
+        <p class="form-status" id="form-status" role="status" hidden>
+          Almost there.<span>Your email app should open with a short message. Just press send.</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="#"
+        >moon<span>one</span><i aria-hidden="true"></i
+      ></a>
+      <p>
+        Moon One and moonOS are in development. Features and specifications may
+        change.<br />Moon One is not a medical device. ECG and Solana Pay
+        are concepts in development and not available yet. Product renders
+        illustrate the design concept.<br />Designed in Belgrade.
+      </p>
+      <a href="#main">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
